@@ -10,14 +10,12 @@
 `git branch project`
 > And this command will only create a branch but git checkout -B command will create the branch and same time it will change your current branch to your created branch too like
 ` git checkout -B project`
-> After that confirm the current branch you are in like
+# How to get the git list
+> To check and confirm the current branch you are in.
 `git branch`
 > This command will show you the branch and highlighted your current branch
-
->`git change branch ?`
->`git-branch`
->`git checkout -b pracitw`
->`git checkout -b master`
+> But if you want to back to the previous branch. you can use following command
+`git checkout master`
 >`git branch -a`
 >`git remote show practicw`
 >`git add test.txt`
